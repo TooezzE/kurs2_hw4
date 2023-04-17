@@ -32,6 +32,7 @@ public class CalculatorServiceImpl implements CalculatorService {
         }
         return num1 + " * " + num2 + " = " + (num1 * num2);
     }
+
     @Override
     public String divide(Integer num1, Integer num2){
         if(num1 == null || num2 == null){
